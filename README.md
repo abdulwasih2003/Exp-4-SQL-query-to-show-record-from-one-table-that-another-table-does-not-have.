@@ -1,16 +1,16 @@
 # Exp-4 SQL query to show record from one table that another table does not have.
-## AIM:
+## Aim:
 To write a sql query to show record from one table that another table does not have.
-## PROCEDURE:
-### STEP 1:
+## Algorithm:
+### Step 1:
 create database ORG.
-### STEP 2:
+### Step 2:
 create table Worker,Bonus,Title.
-### STEP 3:
+### Step 3:
 Insert Value to the tables.
-### STEP 4:
+### Step 4:
 Select record from one table that another table does'nt have using NOT IN.
-## PROGRAM:
+## Program:
 ```sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -79,7 +79,7 @@ SELECT *
 FROM Worker
 WHERE WORKER_ID NOT IN (SELECT WORKER_REF_ID FROM Bonus);
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX04/assets/93427303/7f67e75a-db08-43bf-8407-bc622f733bde)
-## RESULT:
+## Result:
 A sql query query to show record from one table that another table does not have has been executed.
