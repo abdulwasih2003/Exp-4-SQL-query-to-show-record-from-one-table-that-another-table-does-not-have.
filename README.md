@@ -3,13 +3,13 @@
 To write a sql query to show record from one table that another table does not have.
 ## Algorithm:
 ### Step 1:
-create database ORG.
+Create database ORG.
 ### Step 2:
-create table Worker,Bonus,Title.
+Create table Worker,Bonus,Title.
 ### Step 3:
 Insert Value to the tables.
 ### Step 4:
-Select record from one table that another table does'nt have using NOT IN.
+Select record from one table that another table doesn't have using NOT IN.
 ## Program:
 ```sql
 CREATE DATABASE ORG;
